@@ -1,18 +1,18 @@
-.topnav{
+.header{
+    display:flex;
     background-color: #1f2937;
     font-family: 'Roboto';font-size: 20px;
     color:white;
+    padding: 5px 15px 5px 15px;
 }
-
-
-/* .logo.topnav{
-    display: flex;
-    justify-content: flex-start;
-    align-self: center;
+.logo{
     font-size: 35px;
-} */
-.tab.topnav{
-    display:inline-flex;
-    flex-direction: column-reverse;
+}
+.topnav{
+    display:flex;
     flex:1;
+    align-items: center;
+    justify-content: flex-end;
+    gap:5%;
+
 }
