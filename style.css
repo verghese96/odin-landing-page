@@ -16,3 +16,55 @@
     gap:5%;
 
 }
+.TopBody{
+    display: flex;
+    background-color: #1f2937;
+    font-family: 'Roboto';
+    color:white;
+}
+.Topcontent{
+    font-size: 20px; 
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    background-color: red;
+    gap:5%;
+}
+.Topcontent h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.Topcontent p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.Topcontent button{
+    flex: auto;
+    background-color: #3882F6;
+    font-family: 'Roboto';font-size: 18px;
+    color:white;
+    border-radius: 8px; border:none; padding: 8px 28px;
+
+
+}
+.box{
+    width: 320px;
+    padding: 10px;
+    background-color:gray;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap:5%;
+}
+.box p{
+    align-content: center;
+}
+
+footer{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    background-color: #1f2937;
+    color:white;
+    font-family: 'Roboto';font-size: 18px;
+}
