@@ -81,6 +81,9 @@
     color: #1f2937;
 }
 .BlueBox{
+    display: flex;
+    justify-content:center;
+    flex: auto;
     width:180px;
     height:180px;
     border: 5px solid #3882F6;
@@ -89,8 +92,9 @@
 }
 .BoxNText{
     width:180px;
-    height:180px;
+    height:250px;
 }
+
 .InspirationQuote{
     background-color:#E5E7EB;
     padding: 3%;
